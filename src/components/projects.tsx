@@ -27,25 +27,25 @@ function Projects() {
                         <div>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/react.svg" alt="React" />
+                                    <img data-icon="inline-end" src="./react.svg" alt="React" />
                                 </div>
                                 React
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/tailwind.svg" alt="Tailwind CSS" />
+                                    <img data-icon="inline-end" src="./tailwind.svg" alt="Tailwind CSS" />
                                 </div>
                                 Tailwind CSS
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/express.svg" alt="Express.js" />
+                                    <img data-icon="inline-end" src="./express.svg" alt="Express.js" />
                                 </div>
                                 Express.js
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/mysql.svg" alt="MySQL" />
+                                    <img data-icon="inline-end" src="./mysql.svg" alt="MySQL" />
                                 </div>
                                 MySQL
                             </Badge>
@@ -72,25 +72,25 @@ function Projects() {
                         <div>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/next.svg" alt="Next.js" />
+                                    <img data-icon="inline-end" src="./next.svg" alt="Next.js" />
                                 </div>
                                 Next.js
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/tailwind.svg" alt="Tailwind CSS" />
+                                    <img data-icon="inline-end" src="./tailwind.svg" alt="Tailwind CSS" />
                                 </div>
                                 Tailwind CSS
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/mysql.svg" alt="MySQL" />
+                                    <img data-icon="inline-end" src="./mysql.svg" alt="MySQL" />
                                 </div>
                                 MySQL
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/arduino.svg" alt="Arduino" />
+                                    <img data-icon="inline-end" src="./arduino.svg" alt="Arduino" />
                                 </div>
                                 Arduino
                             </Badge>
@@ -117,19 +117,19 @@ function Projects() {
                         <div>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/next.svg" alt="Next.js" />
+                                    <img data-icon="inline-end" src="./next.svg" alt="Next.js" />
                                 </div>
                                 Next.js
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/tailwind.svg" alt="Tailwind CSS" />
+                                    <img data-icon="inline-end" src="./tailwind.svg" alt="Tailwind CSS" />
                                 </div>
                                 Tailwind CSS
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/mysql.svg" alt="MySQL" />
+                                    <img data-icon="inline-end" src="./mysql.svg" alt="MySQL" />
                                 </div>
                                 MySQL
                             </Badge>
@@ -156,25 +156,25 @@ function Projects() {
                         <div>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/react.svg" alt="React" />
+                                    <img data-icon="inline-end" src="./react.svg" alt="React" />
                                 </div>
                                 React
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/tailwind.svg" alt="Tailwind CSS" />
+                                    <img data-icon="inline-end" src="./tailwind.svg" alt="Tailwind CSS" />
                                 </div>
                                 Tailwind CSS
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/express.svg" alt="Express.js" />
+                                    <img data-icon="inline-end" src="./express.svg" alt="Express.js" />
                                 </div>
                                 Express.js
                             </Badge>
                             <Badge variant="secondary">
                                 <div className="w-3 h-3">
-                                    <img data-icon="inline-end" src="/mysql.svg" alt="MySQL" />
+                                    <img data-icon="inline-end" src="./mysql.svg" alt="MySQL" />
                                 </div>
                                 MySQL
                             </Badge>
