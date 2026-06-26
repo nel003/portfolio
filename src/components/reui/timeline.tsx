@@ -1,11 +1,12 @@
 import {
   createContext,
-  HTMLAttributes,
   useCallback,
   useContext,
   useState,
 } from "react"
 import { Slot } from "radix-ui"
+
+import type { HTMLAttributes } from "react";
 
 import { cn } from "@/lib/utils"
 
