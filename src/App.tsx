@@ -1,15 +1,35 @@
 // import Hero from "./components/hero"
 
-import { Mail, MapPin, Mars, Phone } from "lucide-react"
+import { Mail, MapPin, Mars, Moon, Phone, Sun } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "./components/ui/avatar"
 import Education from "./components/education"
 import TechStack from "./components/stack"
 import Projects from "./components/projects"
+import { useEffect, useState } from "react"
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false)
+
+  useEffect(() => {
+    (() => {
+      const theme = localStorage.getItem("theme")
+      if (theme === "dark") {
+        setDarkMode(true)
+      } else {
+        setDarkMode(false)
+      }
+    })()
+  }, [])
+
+  const handleDarkModeToggle = () => {
+    setDarkMode(prev => {
+      localStorage.setItem("theme", prev ? "light" : "dark")
+      return !prev
+    })
+  }
 
   return (
-    <div className="w-full h-screen flex justify-center p-6">
+    <div className={`bg-background w-full min-h-screen flex transition-colors duration-300 justify-center p-6 ${darkMode ? "dark" : ""}`}>
       <div className="w-full max-w-5xl px-4">
         {/* <Hero /> */}
 
@@ -27,7 +47,11 @@ function App() {
               <p className="text-muted-foreground">Web Developer</p>
             </div>
             <div>
-              <h1>side</h1>
+              <div onClick={handleDarkModeToggle} className="cursor-pointer relative bg-secondary p-1.25 rounded-full flex gap-1.5">
+                <Sun size={15} className="relative z-10 astext opacity-70" />
+                <Moon size={15} className="relative z-10 astext" />
+                <span className={`block h-4.25 w-4.25 rounded-full absolute top-1 transition-all duration-300 ${darkMode ? "left-6.25 bg-green-400" : "left-1 bg-green-100"}`} />
+              </div>
             </div>
           </div>
         </div>
@@ -50,7 +74,7 @@ function App() {
               <div className="p-1.25 rounded-sm bg-accent-foreground/5">
                 <Phone size={16} className="text-muted-foreground" />
               </div>
-              <h1 className="opacity-70">+63 961 457 77195</h1>
+              <h1 className="opacity-70 text-nowrap">+63 961 457 77195</h1>
             </div>
           </div>
           <div className="w-1/2 flex flex-col gap-2">
@@ -70,7 +94,7 @@ function App() {
         </div>
 
         <div className="flex flex-col md:flex-row w-full border-b border-muted h-auto">
-          <div className="w-full md:w-3/4 md:pr-8 py-4 border-b md:border-b-0 md:border-r border-muted">
+          <div className="w-full md:w-[65%] md:pr-8 py-4 border-b md:border-b-0 md:border-r border-muted">
             <h1 className="pb-3 font-bold text-xl"> About</h1>
             <ul className="list-disc pl-5 space-y-3">
               <li>Bachelor of Science in Information Technology graduate with a strong foundation in full-stack web development and a passion for building practical software solutions.</li>
@@ -80,7 +104,7 @@ function App() {
               <li>Passionate about writing clean, maintainable code, solving technical problems, and continuously learning new technologies to improve development skills.</li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 p-4">
+          <div className="w-full md:w-[35%] p-4">
             <h1 className="pb-3 font-bold text-xl">Education</h1>
             <Education />
           </div>
@@ -95,6 +119,10 @@ function App() {
           </div>
         </div>
 
+
+        <div className="w-full flex justify-center">
+          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Arnel Lopena. All rights reserved.</p>
+        </div>
       </div>
     </div>
   )

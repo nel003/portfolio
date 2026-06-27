@@ -49,6 +49,12 @@ function Projects() {
                                 </div>
                                 MySQL
                             </Badge>
+                            <Badge variant="secondary">
+                                <div className="w-3 h-3">
+                                    <img data-icon="inline-end" src="./arduino.svg" alt="Arduino" />
+                                </div>
+                                Arduino
+                            </Badge>
                         </div>
                     </CollapsibleContent>
                 </Collapsible>
