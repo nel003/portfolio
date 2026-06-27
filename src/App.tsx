@@ -1,6 +1,6 @@
 // import Hero from "./components/hero"
 
-import { Mail, MapPin, Mars, Moon, Phone, Sun } from "lucide-react"
+import { Globe, Mail, MapPin, Mars, Moon, Phone, Sun } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "./components/ui/avatar"
 import Education from "./components/education"
 import TechStack from "./components/stack"
@@ -75,6 +75,14 @@ function App() {
                 <Phone size={16} className="text-muted-foreground" />
               </div>
               <h1 className="opacity-70 text-nowrap">+63 961 457 77195</h1>
+            </div>
+            <div className="flex gap-2">
+              <div className="p-1.25 rounded-sm bg-accent-foreground/5">
+                <Globe size={16} className="text-muted-foreground" />
+              </div>
+              <a href="https://nel.is-a.dev" target="_blank" rel="noopener noreferrer" className="opacity-70 text-nowrap hover:underline">
+                https://nel.is-a.dev
+              </a>
             </div>
           </div>
           <div className="w-1/2 flex flex-col gap-2">
