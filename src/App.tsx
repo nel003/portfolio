@@ -37,7 +37,7 @@ function App() {
           <div>
             <Avatar className="w-40 h-40">
               <AvatarImage src="./arns.png" />
-              <AvatarFallback>CN</AvatarFallback>
+              <AvatarFallback>Arnel Lopena</AvatarFallback>
             </Avatar>
           </div>
           <div className="flex w-full px-4">
