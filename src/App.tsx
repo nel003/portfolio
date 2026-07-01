@@ -36,7 +36,7 @@ function App() {
         <div className="flex w-full p-2">
           <div>
             <Avatar className="w-40 h-40">
-              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarImage src="./arns.png" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
           </div>
@@ -44,7 +44,7 @@ function App() {
             <div className="grow flex flex-col justify-center">
               <span className="grow"></span>
               <h1 className="text-4xl font-bold">Arnel Lopena</h1>
-              <p className="text-muted-foreground">Web Developer</p>
+              <p className="text-muted-foreground">Web Developer / Programmer</p>
             </div>
             <div>
               <div onClick={handleDarkModeToggle} className="cursor-pointer relative bg-secondary p-1.25 rounded-full flex gap-1.5">
