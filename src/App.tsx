@@ -90,7 +90,7 @@ function App() {
               <div className="p-1 rounded-sm bg-accent-foreground/5">
                 <Mail size={18} className="text-muted-foreground" />
               </div>
-              <h1 className="opacity-70">alopena55555@gmail.com</h1>
+              <h1 className="opacity-70">arnlopena@gmail.com</h1>
             </div>
             <div className="flex gap-2">
               <div className="p-1.25 rounded-sm bg-accent-foreground/5">
